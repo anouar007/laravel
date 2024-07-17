@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Arial", "sans-serif";
+}
+
+.h-80v {
+    height: 80vh;
+}
+
+.h-70v {
+    height: 70vh;
+}
+
+.h-50v {
+    height: 50vh;
+}
+
+.h-40v {
+    height: 40vh;
+}
+
+.h-30v {
+    height: 30vh;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.text-orange {
+    color: #edb74a !important;
+}
+
+.shadow-1 {
+    text-shadow: 1px 1px black;
+}
+
+/* hero section */
+.nav-link {
+    color: #edb74a !important;
+    text-decoration: underline !important;
+    text-underline-position: under !important;
+    font-weight: bold !important;
+    text-shadow: 1px 1px black;
+}
+
+.nav-link:hover {
+    color: aliceblue !important;
+}
+
+#heroSection {
+    background-image: url("img/herosection.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#heroSection h1 {
+    color: #edb74a;
+    font-weight: bold;
+}
+
+#heroSection * {
+    text-shadow: 1px 1px black;
+}
+
+/* features section */
+
+#features-head {
+    background-image: url("img/featuressection.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+/* how-it-works section */
+
+#how-it-works {
+    box-shadow: -1px -5px 9px 0px #e0e0e0;
+}
+
+#how-it-works .items p,h1 {
+    text-shadow: 1px 1px 1px #696969;
+}
+
+#how-it-works .items {
+    box-shadow: 0 0 5px 2px #dfdfdf;
+    color: white;
+    border-radius: 24px;
+}
+
+#how-it-works .items:nth-child(1){
+    background-color: #edb74a;
+}
+
+#how-it-works .items:nth-child(2){
+    background-color: #3498db;
+}
+
+#how-it-works .items:nth-child(3){
+    background-color: #1abc9c;
+}
